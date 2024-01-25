@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Library</h1>
+        <nav>
+            <ul>
+                <li><a href="./addBooks.html">Add Books</a></li>
+                <li><a href="./index.html">Show Books</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main class="addBook">
+        <p>Enter Book Details</p>
+        <form class="bookForm" action="#">
+            <div>
+                <label for="bookTitle">
+                    Title
+                </label>
+                <input type="text" placeholder="Enter book title" class="bookInput" id="bookTitle" name="title"/>
+            </div>
+            <div>
+                <label for="bookAuthor">
+                    Author
+                </label>
+                <input type="text" placeholder="Enter Author" class="bookInput" id="bookAuthor" name="author"/>
+            </div>
+            <div>
+                <label for="bookPages">
+                    No. of Pages
+                </label>
+                <input type="text" placeholder="Enter no of pages" class="bookInput" id="bookPages" name="pages"/>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
